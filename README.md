@@ -42,6 +42,8 @@ In the spirit of `don't release something that's broken because that's bad for u
 
 ## Step 5 UI/UX Design & Front-end Rework:
 After catching bugs and issues in step 4, I redesign and recode the elements that are causing bugs and issues until they are resolved locally. Afterwards, I try to deploy to staging again to see how they perform. If issues - tickets - are resolved, then I move to the next ticket. If all tickets are solved, then we are ready to go live.
+
+
 <img width="543" alt="image" src="https://github.com/RevoU-FSSE-2/week-5-audiprevio/assets/126348614/4ff298c8-bf75-40cd-9311-99d1b1821843">
 
 
