@@ -25,20 +25,30 @@ As for the development of this iteration, I started by reviewing codes, design, 
 
 ## Step 2 Product Management: 
 After doing step 1, I gather all the design and code issues as `tickets` in my **Development Task Sheet** for this Sprint. You can access the sheet here:https://docs.google.com/spreadsheets/d/1zhW0W4uAFYqPuB8KTxJV0fKYyem0EGjmO235iWNHS3U/edit#gid=0
+<img width="594" alt="image" src="https://github.com/RevoU-FSSE-2/week-5-audiprevio/assets/126348614/bd1aa577-8d65-4b50-9a57-1180aaeabb4f">
+
 
 The sheet helps me: keep track of what I must do (ticket) and in what order I must do them (priority ranking) so that I don't waste my time because of scope creep.
 
 ## Step 3 UI/UX Design & Front-end Works:
 In step 3, I basically start the dirty work - create the necessary design for front-end requirements and code for front-end requirements. How do I determine when I need design material? Well, basically, that's already covered in Step 2's Development Task. You can see the elements and raw design process here at NDJ's Garage: https://www.figma.com/file/vxFZDuUWxGxxgThpHseOhH/NDJ's-Garage?type=design&mode=design&t=sbO0bTKKl84dZWkW-1
+<img width="960" alt="image" src="https://github.com/RevoU-FSSE-2/week-5-audiprevio/assets/126348614/05f8e3e9-0340-4154-aaac-dffd8fc426cf">
+
 
 ## Step 4 Create Staging and Do Testing at Staging:
 In the spirit of `don't release something that's broken because that's bad for user experience`, I set up a staging website at **staging-ndj.netlify.app**, to make sure that i can catch all issues beyond using local live server. And this proves to be very helpful. I managed to catch bugs and design issues that occur in IOS devices.
+<img width="959" alt="image" src="https://github.com/RevoU-FSSE-2/week-5-audiprevio/assets/126348614/40fdd8c7-cbde-4cc3-bd21-56b76ed25779">
+
 
 ## Step 5 UI/UX Design & Front-end Rework:
 After catching bugs and issues in step 4, I redesign and recode the elements that are causing bugs and issues until they are resolved locally. Afterwards, I try to deploy to staging again to see how they perform. If issues - tickets - are resolved, then I move to the next ticket. If all tickets are solved, then we are ready to go live.
+<img width="543" alt="image" src="https://github.com/RevoU-FSSE-2/week-5-audiprevio/assets/126348614/4ff298c8-bf75-40cd-9311-99d1b1821843">
+
 
 ## Step 6 Deployment to Live Website: nextdotjobs.site:
 Once the staging testing is finished and all rework is done, I deploy the new codes and materials to next.Jobs' main website. But there was a catch. The nextdotjobs.site was connected to the previous repo, so I had to disconnect the previous repo in the netlify and connect this one instead.
+<img width="959" alt="image" src="https://github.com/RevoU-FSSE-2/week-5-audiprevio/assets/126348614/a0a8d618-9814-453d-a461-6ac94f65f6ca">
+
 
 And with that the **next.Jobs Landing Page 2.0** is successfully deployed!
 
